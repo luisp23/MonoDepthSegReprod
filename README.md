@@ -6,6 +6,16 @@ Final project for CS 7643 Deep Learning focusing on reproducing the results deta
 - `pytorch-1.10.0`
 - `numpy-1.21.2`
 
+## Training and Validation
+Command for Training: 
+- `python train.py --png --data_path ../kitti_data --load_weights_folder /home/luis/backup_model_run/mdp_run5/networks/weights_5/`
+
+Command for Evaluation:
+- `python depth_masking_validation.py --png --data_path ../kitti_data --load_weights_folder /home/luis/backup_model_run/mdp_run6/networks/weights_4/ --num_val_batches=2`
+
+Command for Viewing Logs:
+- `tensorboard --logdir=<dir_of_log>`
+
 
 ## References
 This codebase reproduces the MonoDepthSeg architecture described in the following work:
