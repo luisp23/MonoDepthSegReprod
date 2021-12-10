@@ -1,6 +1,12 @@
 # MonoDepthSegReprod
 Final project for CS 7643 Deep Learning focusing on reproducing the results detailed in "Self-Supervised Monocular Scene Decomposition and Depth Estimation" - S. Safadoust,  F. Guney (2021)
 
+# Contributors
+> [Luis Pimentel](lpimentel3@gatech.edu)
+> [Nicholas Cich](ncich3@gatech.edu)
+> [Shuvo Newaz](shuvo.newaz@gatech.edu)
+> [Eric Gu](egu8@gatech.edu)
+ 
 ## Dependencies (Current)
 - `torchvision-0.11.1`
 - `pytorch-1.10.0`
@@ -8,10 +14,10 @@ Final project for CS 7643 Deep Learning focusing on reproducing the results deta
 
 ## Training and Validation
 Command for Training: 
-- `python train.py --png --data_path ../kitti_data --load_weights_folder /home/luis/backup_model_run/mdp_run5/networks/weights_5/`
+- `python train.py --png --data_path ../kitti_data --load_weights_folder /$path_to_weights$`
 
 Command for Evaluation:
-- `python depth_masking_validation.py --png --data_path ../kitti_data --load_weights_folder /home/luis/backup_model_run/mdp_run6/networks/weights_4/ --num_val_batches=2`
+- `python depth_masking_validation.py --png --data_path /$path_to_kitti_data$ --load_weights_folder /$path_to_weights$ --num_val_batches=2`
 
 Command for Viewing Logs:
 - `tensorboard --logdir=<dir_of_log>`
