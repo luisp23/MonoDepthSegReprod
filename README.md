@@ -3,8 +3,11 @@ Final project for CS 7643 Deep Learning focusing on reproducing the results deta
 
 # Contributors
 > [Luis Pimentel](lpimentel3@gatech.edu)
+> 
 > [Nicholas Cich](ncich3@gatech.edu)
+> 
 > [Shuvo Newaz](shuvo.newaz@gatech.edu)
+> 
 > [Eric Gu](egu8@gatech.edu)
  
 ## Dependencies (Current)
